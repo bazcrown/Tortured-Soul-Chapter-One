@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A55928142114A89C00878046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928132114A89C00878046 /* AppDelegate.swift */; };
+		A55928162114A89C00878046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928152114A89C00878046 /* ViewController.swift */; };
+		A55928192114A89C00878046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55928172114A89C00878046 /* Main.storyboard */; };
+		A559281B2114A89D00878046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A559281A2114A89D00878046 /* Assets.xcassets */; };
+		A559281E2114A89D00878046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A559281C2114A89D00878046 /* LaunchScreen.storyboard */; };
+		A55928292114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928282114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift */; };
+		A55928342114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928332114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55928252114A89E00878046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55928082114A89B00878046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A559280F2114A89B00878046;
+			remoteInfo = "Tortured Soul Chapter One";
+		};
+		A55928302114A89E00878046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A55928082114A89B00878046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A559280F2114A89B00878046;
+			remoteInfo = "Tortured Soul Chapter One";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A55928102114A89C00878046 /* Tortured Soul Chapter One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tortured Soul Chapter One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55928132114A89C00878046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A55928152114A89C00878046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A55928182114A89C00878046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A559281A2114A89D00878046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A559281D2114A89D00878046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A559281F2114A89D00878046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55928242114A89E00878046 /* Tortured Soul Chapter OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tortured Soul Chapter OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55928282114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortured_Soul_Chapter_OneTests.swift; sourceTree = "<group>"; };
+		A559282A2114A89E00878046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A559282F2114A89E00878046 /* Tortured Soul Chapter OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tortured Soul Chapter OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55928332114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortured_Soul_Chapter_OneUITests.swift; sourceTree = "<group>"; };
+		A55928352114A89E00878046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A559280D2114A89B00878046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55928212114A89E00878046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A559282C2114A89E00878046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55928072114A89B00878046 = {
+			isa = PBXGroup;
+			children = (
+				A55928122114A89C00878046 /* Tortured Soul Chapter One */,
+				A55928272114A89E00878046 /* Tortured Soul Chapter OneTests */,
+				A55928322114A89E00878046 /* Tortured Soul Chapter OneUITests */,
+				A55928112114A89C00878046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A55928112114A89C00878046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55928102114A89C00878046 /* Tortured Soul Chapter One.app */,
+				A55928242114A89E00878046 /* Tortured Soul Chapter OneTests.xctest */,
+				A559282F2114A89E00878046 /* Tortured Soul Chapter OneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55928122114A89C00878046 /* Tortured Soul Chapter One */ = {
+			isa = PBXGroup;
+			children = (
+				A55928132114A89C00878046 /* AppDelegate.swift */,
+				A55928152114A89C00878046 /* ViewController.swift */,
+				A55928172114A89C00878046 /* Main.storyboard */,
+				A559281A2114A89D00878046 /* Assets.xcassets */,
+				A559281C2114A89D00878046 /* LaunchScreen.storyboard */,
+				A559281F2114A89D00878046 /* Info.plist */,
+			);
+			path = "Tortured Soul Chapter One";
+			sourceTree = "<group>";
+		};
+		A55928272114A89E00878046 /* Tortured Soul Chapter OneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A55928282114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift */,
+				A559282A2114A89E00878046 /* Info.plist */,
+			);
+			path = "Tortured Soul Chapter OneTests";
+			sourceTree = "<group>";
+		};
+		A55928322114A89E00878046 /* Tortured Soul Chapter OneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A55928332114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift */,
+				A55928352114A89E00878046 /* Info.plist */,
+			);
+			path = "Tortured Soul Chapter OneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A559280F2114A89B00878046 /* Tortured Soul Chapter One */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55928382114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter One" */;
+			buildPhases = (
+				A559280C2114A89B00878046 /* Sources */,
+				A559280D2114A89B00878046 /* Frameworks */,
+				A559280E2114A89B00878046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tortured Soul Chapter One";
+			productName = "Tortured Soul Chapter One";
+			productReference = A55928102114A89C00878046 /* Tortured Soul Chapter One.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A55928232114A89E00878046 /* Tortured Soul Chapter OneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A559283B2114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter OneTests" */;
+			buildPhases = (
+				A55928202114A89E00878046 /* Sources */,
+				A55928212114A89E00878046 /* Frameworks */,
+				A55928222114A89E00878046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55928262114A89E00878046 /* PBXTargetDependency */,
+			);
+			name = "Tortured Soul Chapter OneTests";
+			productName = "Tortured Soul Chapter OneTests";
+			productReference = A55928242114A89E00878046 /* Tortured Soul Chapter OneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A559282E2114A89E00878046 /* Tortured Soul Chapter OneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A559283E2114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter OneUITests" */;
+			buildPhases = (
+				A559282B2114A89E00878046 /* Sources */,
+				A559282C2114A89E00878046 /* Frameworks */,
+				A559282D2114A89E00878046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A55928312114A89E00878046 /* PBXTargetDependency */,
+			);
+			name = "Tortured Soul Chapter OneUITests";
+			productName = "Tortured Soul Chapter OneUITests";
+			productReference = A559282F2114A89E00878046 /* Tortured Soul Chapter OneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55928082114A89B00878046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Bazzy Studios";
+				TargetAttributes = {
+					A559280F2114A89B00878046 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A55928232114A89E00878046 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A559280F2114A89B00878046;
+					};
+					A559282E2114A89E00878046 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A559280F2114A89B00878046;
+					};
+				};
+			};
+			buildConfigurationList = A559280B2114A89B00878046 /* Build configuration list for PBXProject "Tortured Soul Chapter One" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55928072114A89B00878046;
+			productRefGroup = A55928112114A89C00878046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A559280F2114A89B00878046 /* Tortured Soul Chapter One */,
+				A55928232114A89E00878046 /* Tortured Soul Chapter OneTests */,
+				A559282E2114A89E00878046 /* Tortured Soul Chapter OneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A559280E2114A89B00878046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A559281E2114A89D00878046 /* LaunchScreen.storyboard in Resources */,
+				A559281B2114A89D00878046 /* Assets.xcassets in Resources */,
+				A55928192114A89C00878046 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55928222114A89E00878046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A559282D2114A89E00878046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A559280C2114A89B00878046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55928162114A89C00878046 /* ViewController.swift in Sources */,
+				A55928142114A89C00878046 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55928202114A89E00878046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55928292114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A559282B2114A89E00878046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55928342114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A55928262114A89E00878046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A559280F2114A89B00878046 /* Tortured Soul Chapter One */;
+			targetProxy = A55928252114A89E00878046 /* PBXContainerItemProxy */;
+		};
+		A55928312114A89E00878046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A559280F2114A89B00878046 /* Tortured Soul Chapter One */;
+			targetProxy = A55928302114A89E00878046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A55928172114A89C00878046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55928182114A89C00878046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A559281C2114A89D00878046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A559281D2114A89D00878046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A55928362114A89E00878046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A55928372114A89E00878046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55928392114A89E00878046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JCP5W4K9;
+				INFOPLIST_FILE = "Tortured Soul Chapter One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.cod.ch1.Tortured-Soul-Chapter-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A559283A2114A89E00878046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JCP5W4K9;
+				INFOPLIST_FILE = "Tortured Soul Chapter One/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.cod.ch1.Tortured-Soul-Chapter-One";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A559283C2114A89E00878046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JCP5W4K9;
+				INFOPLIST_FILE = "Tortured Soul Chapter OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.cod.ch1.Tortured-Soul-Chapter-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tortured Soul Chapter One.app/Tortured Soul Chapter One";
+			};
+			name = Debug;
+		};
+		A559283D2114A89E00878046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JCP5W4K9;
+				INFOPLIST_FILE = "Tortured Soul Chapter OneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.cod.ch1.Tortured-Soul-Chapter-OneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tortured Soul Chapter One.app/Tortured Soul Chapter One";
+			};
+			name = Release;
+		};
+		A559283F2114A89E00878046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JCP5W4K9;
+				INFOPLIST_FILE = "Tortured Soul Chapter OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.cod.ch1.Tortured-Soul-Chapter-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tortured Soul Chapter One";
+			};
+			name = Debug;
+		};
+		A55928402114A89E00878046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93JCP5W4K9;
+				INFOPLIST_FILE = "Tortured Soul Chapter OneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpha.cod.ch1.Tortured-Soul-Chapter-OneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tortured Soul Chapter One";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A559280B2114A89B00878046 /* Build configuration list for PBXProject "Tortured Soul Chapter One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55928362114A89E00878046 /* Debug */,
+				A55928372114A89E00878046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55928382114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter One" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55928392114A89E00878046 /* Debug */,
+				A559283A2114A89E00878046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A559283B2114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter OneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A559283C2114A89E00878046 /* Debug */,
+				A559283D2114A89E00878046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A559283E2114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter OneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A559283F2114A89E00878046 /* Debug */,
+				A55928402114A89E00878046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55928082114A89B00878046 /* Project object */;
+}
