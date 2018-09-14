@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		316611A8FA8A2CAFBFCCEDED /* Pods_Tortured_Soul_Chapter_One.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8C2C6BAD207B471210BE01 /* Pods_Tortured_Soul_Chapter_One.framework */; };
+		93F17886DF4AD9DB9238BEA0 /* Pods_Tortured_Soul_Chapter_OneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BD1CA587B6BD4BE93B7EA5 /* Pods_Tortured_Soul_Chapter_OneUITests.framework */; };
+		A526E7DA211EBB7800CAFE51 /* ChapterThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526E7D9211EBB7800CAFE51 /* ChapterThreeViewController.swift */; };
+		A526E7DC211EBBBE00CAFE51 /* ThreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526E7DB211EBBBE00CAFE51 /* ThreeTableViewCell.swift */; };
 		A55928142114A89C00878046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928132114A89C00878046 /* AppDelegate.swift */; };
 		A55928162114A89C00878046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928152114A89C00878046 /* ViewController.swift */; };
 		A55928192114A89C00878046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55928172114A89C00878046 /* Main.storyboard */; };
@@ -14,6 +18,19 @@
 		A559281E2114A89D00878046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A559281C2114A89D00878046 /* LaunchScreen.storyboard */; };
 		A55928292114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928282114A89E00878046 /* Tortured_Soul_Chapter_OneTests.swift */; };
 		A55928342114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928332114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift */; };
+		A55928422114B16D00878046 /* BodyPartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928412114B16D00878046 /* BodyPartsViewController.swift */; };
+		A55928442114B27300878046 /* BodyPartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55928432114B27300878046 /* BodyPartCell.swift */; };
+		A5778F0C2116A3B700A51F7C /* BodyPartLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F0B2116A3B700A51F7C /* BodyPartLocationsViewController.swift */; };
+		A5778F0E2116A71B00A51F7C /* BodyPartLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F0D2116A71B00A51F7C /* BodyPartLocationCell.swift */; };
+		A5778F132116E06200A51F7C /* StepsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F112116E06200A51F7C /* StepsTableViewCell.swift */; };
+		A5778F142116E06200A51F7C /* StepsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5778F122116E06200A51F7C /* StepsTableViewCell.xib */; };
+		A5778F162116E33900A51F7C /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F152116E33900A51F7C /* StepsViewController.swift */; };
+		A5778F1C2116E93000A51F7C /* StepItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F1B2116E93000A51F7C /* StepItem.swift */; };
+		A5778F1E2117077000A51F7C /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F1D2117077000A51F7C /* TwoViewController.swift */; };
+		A5778F2221171A5600A51F7C /* FishBatteryLocationsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5778F2121171A5600A51F7C /* FishBatteryLocationsTableController.swift */; };
+		A591F323211E102E00E4CBDD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591F322211E102E00E4CBDD /* MainViewController.swift */; };
+		A591F325211E3E7B00E4CBDD /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591F324211E3E7B00E4CBDD /* SideMenuTableViewController.swift */; };
+		E8B5387C4BB8BF18D59E8135 /* Pods_Tortured_Soul_Chapter_OneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BA099E2F451CB947E5CB38 /* Pods_Tortured_Soul_Chapter_OneTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BA099E2F451CB947E5CB38 /* Pods_Tortured_Soul_Chapter_OneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tortured_Soul_Chapter_OneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30777592FF125ADBDC61BD3C /* Pods-Tortured Soul Chapter One.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortured Soul Chapter One.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tortured Soul Chapter One/Pods-Tortured Soul Chapter One.release.xcconfig"; sourceTree = "<group>"; };
+		394C77D57CEDCD5EB2CEE134 /* Pods-Tortured Soul Chapter OneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortured Soul Chapter OneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tortured Soul Chapter OneUITests/Pods-Tortured Soul Chapter OneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4335D88C048E0077101FDB46 /* Pods-Tortured Soul Chapter One.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortured Soul Chapter One.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tortured Soul Chapter One/Pods-Tortured Soul Chapter One.debug.xcconfig"; sourceTree = "<group>"; };
+		57A3B19253E282C1256DDE0A /* Pods-Tortured Soul Chapter OneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortured Soul Chapter OneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tortured Soul Chapter OneTests/Pods-Tortured Soul Chapter OneTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C8C2C6BAD207B471210BE01 /* Pods_Tortured_Soul_Chapter_One.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tortured_Soul_Chapter_One.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A526E7D9211EBB7800CAFE51 /* ChapterThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterThreeViewController.swift; sourceTree = "<group>"; };
+		A526E7DB211EBBBE00CAFE51 /* ThreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTableViewCell.swift; sourceTree = "<group>"; };
 		A55928102114A89C00878046 /* Tortured Soul Chapter One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tortured Soul Chapter One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55928132114A89C00878046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A55928152114A89C00878046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,21 @@
 		A559282F2114A89E00878046 /* Tortured Soul Chapter OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tortured Soul Chapter OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55928332114A89E00878046 /* Tortured_Soul_Chapter_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tortured_Soul_Chapter_OneUITests.swift; sourceTree = "<group>"; };
 		A55928352114A89E00878046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55928412114B16D00878046 /* BodyPartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartsViewController.swift; sourceTree = "<group>"; };
+		A55928432114B27300878046 /* BodyPartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartCell.swift; sourceTree = "<group>"; };
+		A5778F0B2116A3B700A51F7C /* BodyPartLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartLocationsViewController.swift; sourceTree = "<group>"; };
+		A5778F0D2116A71B00A51F7C /* BodyPartLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartLocationCell.swift; sourceTree = "<group>"; };
+		A5778F112116E06200A51F7C /* StepsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsTableViewCell.swift; sourceTree = "<group>"; };
+		A5778F122116E06200A51F7C /* StepsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StepsTableViewCell.xib; sourceTree = "<group>"; };
+		A5778F152116E33900A51F7C /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		A5778F1B2116E93000A51F7C /* StepItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepItem.swift; sourceTree = "<group>"; };
+		A5778F1D2117077000A51F7C /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		A5778F2121171A5600A51F7C /* FishBatteryLocationsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishBatteryLocationsTableController.swift; sourceTree = "<group>"; };
+		A591F322211E102E00E4CBDD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A591F324211E3E7B00E4CBDD /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		B4CB0B330A37A6A9F0565536 /* Pods-Tortured Soul Chapter OneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortured Soul Chapter OneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tortured Soul Chapter OneTests/Pods-Tortured Soul Chapter OneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D36EED6EA1C236D07B44D0F1 /* Pods-Tortured Soul Chapter OneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tortured Soul Chapter OneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tortured Soul Chapter OneUITests/Pods-Tortured Soul Chapter OneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6BD1CA587B6BD4BE93B7EA5 /* Pods_Tortured_Soul_Chapter_OneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tortured_Soul_Chapter_OneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316611A8FA8A2CAFBFCCEDED /* Pods_Tortured_Soul_Chapter_One.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B5387C4BB8BF18D59E8135 /* Pods_Tortured_Soul_Chapter_OneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F17886DF4AD9DB9238BEA0 /* Pods_Tortured_Soul_Chapter_OneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		355BF2FD210C345762DFCDA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4335D88C048E0077101FDB46 /* Pods-Tortured Soul Chapter One.debug.xcconfig */,
+				30777592FF125ADBDC61BD3C /* Pods-Tortured Soul Chapter One.release.xcconfig */,
+				B4CB0B330A37A6A9F0565536 /* Pods-Tortured Soul Chapter OneTests.debug.xcconfig */,
+				57A3B19253E282C1256DDE0A /* Pods-Tortured Soul Chapter OneTests.release.xcconfig */,
+				394C77D57CEDCD5EB2CEE134 /* Pods-Tortured Soul Chapter OneUITests.debug.xcconfig */,
+				D36EED6EA1C236D07B44D0F1 /* Pods-Tortured Soul Chapter OneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CE4C9124579A16E72EDBE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8C2C6BAD207B471210BE01 /* Pods_Tortured_Soul_Chapter_One.framework */,
+				04BA099E2F451CB947E5CB38 /* Pods_Tortured_Soul_Chapter_OneTests.framework */,
+				F6BD1CA587B6BD4BE93B7EA5 /* Pods_Tortured_Soul_Chapter_OneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A55928072114A89B00878046 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				A55928272114A89E00878046 /* Tortured Soul Chapter OneTests */,
 				A55928322114A89E00878046 /* Tortured Soul Chapter OneUITests */,
 				A55928112114A89C00878046 /* Products */,
+				355BF2FD210C345762DFCDA7 /* Pods */,
+				6CE4C9124579A16E72EDBE13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +171,11 @@
 				A559281A2114A89D00878046 /* Assets.xcassets */,
 				A559281C2114A89D00878046 /* LaunchScreen.storyboard */,
 				A559281F2114A89D00878046 /* Info.plist */,
+				A5778F182116E65500A51F7C /* Controllers */,
+				A5778F172116E64C00A51F7C /* Cells */,
+				A5778F1B2116E93000A51F7C /* StepItem.swift */,
+				A591F322211E102E00E4CBDD /* MainViewController.swift */,
+				A591F324211E3E7B00E4CBDD /* SideMenuTableViewController.swift */,
 			);
 			path = "Tortured Soul Chapter One";
 			sourceTree = "<group>";
@@ -125,6 +198,31 @@
 			path = "Tortured Soul Chapter OneUITests";
 			sourceTree = "<group>";
 		};
+		A5778F172116E64C00A51F7C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5778F0D2116A71B00A51F7C /* BodyPartLocationCell.swift */,
+				A55928432114B27300878046 /* BodyPartCell.swift */,
+				A5778F112116E06200A51F7C /* StepsTableViewCell.swift */,
+				A5778F122116E06200A51F7C /* StepsTableViewCell.xib */,
+				A526E7DB211EBBBE00CAFE51 /* ThreeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A5778F182116E65500A51F7C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5778F152116E33900A51F7C /* StepsViewController.swift */,
+				A55928412114B16D00878046 /* BodyPartsViewController.swift */,
+				A5778F0B2116A3B700A51F7C /* BodyPartLocationsViewController.swift */,
+				A5778F1D2117077000A51F7C /* TwoViewController.swift */,
+				A5778F2121171A5600A51F7C /* FishBatteryLocationsTableController.swift */,
+				A526E7D9211EBB7800CAFE51 /* ChapterThreeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A55928382114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter One" */;
 			buildPhases = (
+				761B19C66A9DB876617335F4 /* [CP] Check Pods Manifest.lock */,
 				A559280C2114A89B00878046 /* Sources */,
 				A559280D2114A89B00878046 /* Frameworks */,
 				A559280E2114A89B00878046 /* Resources */,
+				74064B5C606BD636F98D92C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A559283B2114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter OneTests" */;
 			buildPhases = (
+				A25185129630D1E28C1EE0C4 /* [CP] Check Pods Manifest.lock */,
 				A55928202114A89E00878046 /* Sources */,
 				A55928212114A89E00878046 /* Frameworks */,
 				A55928222114A89E00878046 /* Resources */,
@@ -167,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A559283E2114A89E00878046 /* Build configuration list for PBXNativeTarget "Tortured Soul Chapter OneUITests" */;
 			buildPhases = (
+				382984FF5FB3F904B7716A35 /* [CP] Check Pods Manifest.lock */,
 				A559282B2114A89E00878046 /* Sources */,
 				A559282C2114A89E00878046 /* Frameworks */,
 				A559282D2114A89E00878046 /* Resources */,
@@ -230,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A559281E2114A89D00878046 /* LaunchScreen.storyboard in Resources */,
+				A5778F142116E06200A51F7C /* StepsTableViewCell.xib in Resources */,
 				A559281B2114A89D00878046 /* Assets.xcassets in Resources */,
 				A55928192114A89C00878046 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +354,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		382984FF5FB3F904B7716A35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tortured Soul Chapter OneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74064B5C606BD636F98D92C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tortured Soul Chapter One/Pods-Tortured Soul Chapter One-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tortured Soul Chapter One/Pods-Tortured Soul Chapter One-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		761B19C66A9DB876617335F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tortured Soul Chapter One-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25185129630D1E28C1EE0C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tortured Soul Chapter OneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A559280C2114A89B00878046 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5778F1C2116E93000A51F7C /* StepItem.swift in Sources */,
+				A591F325211E3E7B00E4CBDD /* SideMenuTableViewController.swift in Sources */,
+				A55928422114B16D00878046 /* BodyPartsViewController.swift in Sources */,
+				A5778F0C2116A3B700A51F7C /* BodyPartLocationsViewController.swift in Sources */,
+				A591F323211E102E00E4CBDD /* MainViewController.swift in Sources */,
+				A526E7DC211EBBBE00CAFE51 /* ThreeTableViewCell.swift in Sources */,
+				A5778F162116E33900A51F7C /* StepsViewController.swift in Sources */,
 				A55928162114A89C00878046 /* ViewController.swift in Sources */,
+				A5778F1E2117077000A51F7C /* TwoViewController.swift in Sources */,
+				A5778F2221171A5600A51F7C /* FishBatteryLocationsTableController.swift in Sources */,
+				A5778F0E2116A71B00A51F7C /* BodyPartLocationCell.swift in Sources */,
+				A55928442114B27300878046 /* BodyPartCell.swift in Sources */,
 				A55928142114A89C00878046 /* AppDelegate.swift in Sources */,
+				A526E7DA211EBB7800CAFE51 /* ChapterThreeViewController.swift in Sources */,
+				A5778F132116E06200A51F7C /* StepsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +619,13 @@
 		};
 		A55928392114A89E00878046 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4335D88C048E0077101FDB46 /* Pods-Tortured Soul Chapter One.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93JCP5W4K9;
 				INFOPLIST_FILE = "Tortured Soul Chapter One/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +639,13 @@
 		};
 		A559283A2114A89E00878046 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30777592FF125ADBDC61BD3C /* Pods-Tortured Soul Chapter One.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93JCP5W4K9;
 				INFOPLIST_FILE = "Tortured Soul Chapter One/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +659,7 @@
 		};
 		A559283C2114A89E00878046 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4CB0B330A37A6A9F0565536 /* Pods-Tortured Soul Chapter OneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +681,7 @@
 		};
 		A559283D2114A89E00878046 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A3B19253E282C1256DDE0A /* Pods-Tortured Soul Chapter OneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +703,7 @@
 		};
 		A559283F2114A89E00878046 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394C77D57CEDCD5EB2CEE134 /* Pods-Tortured Soul Chapter OneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +724,7 @@
 		};
 		A55928402114A89E00878046 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36EED6EA1C236D07B44D0F1 /* Pods-Tortured Soul Chapter OneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

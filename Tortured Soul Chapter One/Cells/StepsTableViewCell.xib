@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StepsTableViewCell" customModule="Tortured_Soul_Chapter_One" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stepsTableViewCell" rowHeight="57" id="KGk-i7-Jjw" customClass="StepsTableViewCell" customModule="Tortured_Soul_Chapter_One" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="56.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmR-J8-7Pp">
+                        <rect key="frame" x="16" y="11" width="16" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="CzD-nh-d7b"/>
+                            <constraint firstAttribute="height" constant="27" id="dIc-5b-hd2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" red="0.1436495223" green="0.68630501170000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collect the body parts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IH9-2M-N3X">
+                        <rect key="frame" x="55" y="11" width="210" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" red="0.1436495223" green="0.68630501170000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IH9-2M-N3X" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="0Im-SV-s46"/>
+                    <constraint firstAttribute="trailing" secondItem="fmR-J8-7Pp" secondAttribute="trailing" constant="288" id="0M3-mv-3cn"/>
+                    <constraint firstItem="IH9-2M-N3X" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="MzA-gE-fpb"/>
+                    <constraint firstItem="fmR-J8-7Pp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="d4k-bb-0eS"/>
+                    <constraint firstAttribute="trailing" secondItem="IH9-2M-N3X" secondAttribute="trailing" constant="55" id="dAb-GO-eCd"/>
+                    <constraint firstItem="fmR-J8-7Pp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="rVY-Bx-Snr"/>
+                    <constraint firstItem="IH9-2M-N3X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="55" id="zmj-ix-amh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="stepCountLabel" destination="fmR-J8-7Pp" id="M7v-t7-lQz"/>
+                <outlet property="stepTitleLabel" destination="IH9-2M-N3X" id="7Oo-uZ-MRS"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="60.5"/>
+        </tableViewCell>
+    </objects>
+</document>
