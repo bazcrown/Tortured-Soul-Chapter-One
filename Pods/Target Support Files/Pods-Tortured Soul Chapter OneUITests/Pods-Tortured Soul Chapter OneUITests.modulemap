@@ -1,0 +1,6 @@
+framework module Pods_Tortured_Soul_Chapter_OneUITests {
+  umbrella header "Pods-Tortured Soul Chapter OneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

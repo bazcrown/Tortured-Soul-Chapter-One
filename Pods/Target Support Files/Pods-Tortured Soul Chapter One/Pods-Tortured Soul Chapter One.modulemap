@@ -1,0 +1,6 @@
+framework module Pods_Tortured_Soul_Chapter_One {
+  umbrella header "Pods-Tortured Soul Chapter One-umbrella.h"
+
+  export *
+  module * { export * }
+}
